@@ -6,7 +6,7 @@ import java.util.Random;
 public class Team {
     protected Compete[] competitors;
 
-    public Team (String name, Compete... competitors) {
+    public Team (Compete... competitors) {
         this.competitors = competitors;
     }
 
